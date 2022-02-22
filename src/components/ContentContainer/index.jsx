@@ -7,8 +7,8 @@ const ContentContainer = () => {
     <div className='content-container'>
       <TopNavigation />
       <div className='content-list'>
-        <Post
-          name='Ada'
+        <James
+          name='James'
           timestamp='one week ago'
           text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
           amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
@@ -75,10 +75,30 @@ const BottomBar = () => (
 const Post = ({ name, timestamp, text }) => {
 
   const seed = Math.round(Math.random() * 100);
+
   return (
     <div className={'post'}>
       <div className='avatar-wrapper'>
         <img src={`https://avatars.dicebear.com/api/open-peeps/${seed}.svg`} alt='' className='avatar' />
+      </div>
+
+      <div className='post-content'>
+        <p className='post-owner'>
+          {name}
+          <small className='timestamp'>{timestamp}</small>
+        </p>
+        <p className='post-text'>{text}</p>
+      </div>
+    </div>
+  );
+};
+
+const James = ({ name, timestamp, text }) => {
+  
+  return (
+    <div className={'post'}>
+      <div className='avatar-wrapper'>
+        <img src={`https://i.imgur.com/6Dys0j3.jpeg`} alt='' className='avatar' />
       </div>
 
       <div className='post-content'>
