@@ -10,10 +10,7 @@ const ContentContainer = () => {
         <James
           name='James'
           timestamp='one week ago'
-          text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit.`}
+          text={"Hi! Im James Smith, currently a Developer"}
         />
         <Post name='Leon' timestamp='one week ago' text={`Lorem ipsum dolor. `} />
         <Post name='Jill' timestamp='5 days ago' text={`Lorem.`} />
