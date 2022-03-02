@@ -1,5 +1,5 @@
 import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
-import { FaFire, FaPoo } from 'react-icons/fa';
+import { FaFire, FaPoo, FaLinkedin } from 'react-icons/fa';
 
 const SideBar = () => {
   return (
@@ -11,6 +11,8 @@ const SideBar = () => {
         <SideBarIcon icon={<BsPlus size="32" />}text={"plus"} />
         <SideBarIcon icon={<BsFillLightningFill size="20" />}text={"its lit"} />
         <SideBarIcon icon={<FaPoo size="20" />}text={"poop.exe"} />
+        <Divider />
+        <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} />
         <Divider />
         <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
