@@ -12,12 +12,12 @@ const SideBar = () => {
         <SideBarIcon icon={<BsFillLightningFill size="20" />} />
         <SideBarIcon icon={<FaPoo size="20" />} />
         <Divider />
-        <SideBarIcon icon={<BsGearFill size="22" />} />
+        <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
   );
 };
 
-const SideBarIcon = ({ icon, text = 'tooltip  lol💡' }) => (
+const SideBarIcon = ({ icon, text }) => (
   <div className="sidebar-icon group">
     {icon}
     <span class="sidebar-tooltip group-hover:scale-100">
