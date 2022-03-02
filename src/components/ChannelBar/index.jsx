@@ -3,9 +3,10 @@ import { BsHash } from 'react-icons/bs';
 import { FaChevronDown, FaChevronRight, FaPlus } from 'react-icons/fa';
 
 const topics = ['tailwind-css', 'react'];
-const questions = ['jit-compilation', 'purge-files', 'dark-mode'];
+const aboutme = ['jit-compilation', 'purge-files', 'dark-mode'];
 const random = ['variants', 'plugins'];
-const test = ['test1', 'test2', 'test3'];
+const languages = ['C++', 'JavaScript', 'HTML', 'CSS']
+const projects = ['[NAME PENDING]', 'This website']
 
 const ChannelBar = () => {
   return (
@@ -13,9 +14,10 @@ const ChannelBar = () => {
       <ChannelBlock />
       <div className='channel-container'>
         <Dropdown header='Topics' selections={topics} />
-        <Dropdown header='Questions' selections={questions} />
+        <Dropdown header='About me' selections={aboutme} />
         <Dropdown header='Random' selections={random} />
-        <Dropdown header='test' selections={test} />
+        <Dropdown header='Languages' selections={languages} />
+        <Dropdown header='Projects' selections={projects} />
       </div>
     </div>
   );
