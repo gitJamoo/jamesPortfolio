@@ -12,24 +12,16 @@ const SideBar = () => {
         <SideBarIcon icon={<BsFillLightningFill size="20" />}text={"its lit"} />
         <SideBarIcon icon={<FaPoo size="20" />}text={"poop.exe"} />
         <Divider />
-        <LinkedInIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} />
+        <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} link={"https://www.youtube.com/"} />
+        <SideBarIcon icon={<FaLinkedin size="22" />} text={"github"} link={"https://www.youtube.com/"} />
         <Divider />
         <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
   );
 };
 
-const SideBarIcon = ({ icon, text }) => (
-  <div className="sidebar-icon group">
-    {icon}
-    <span class="sidebar-tooltip group-hover:scale-100">
-      {text}
-    </span>
-  </div>
-);
-
-const LinkedInIcon = ({ icon, text }) => (
-  <a href="https://google.com">
+const SideBarIcon = ({ icon, text, link }) => (
+  <a href={link}>
   <div className="sidebar-icon group">
     {icon}
     <span class="sidebar-tooltip group-hover:scale-100">
