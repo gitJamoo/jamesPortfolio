@@ -7,13 +7,13 @@ const ContentContainer = () => {
     <div className='content-container'>
       <TopNavigation />
       <div className='content-list'>
-        <James
+        <Custom
           name='James'
           timestamp='one week ago'
           text={"Hi! Im James Smith, currently a Developer located in Tigard, Oregon."}
           image={"https://i.imgur.com/6Dys0j3.jpeg"}
         />
-        <James name='James' timestamp='one week ago' text={`You can learn more about me by expanding the channel bar.`}           image={"https://i.imgur.com/6Dys0j3.jpeg"}
+        <Custom name='James' timestamp='one week ago' text={`You can learn more about me by expanding the channel bar.`}           image={"https://i.imgur.com/6Dys0j3.jpeg"}
 />
         <Post name='Jill' timestamp='5 days ago' text={`Lorem.`} />
         <Post
@@ -44,7 +44,7 @@ const ContentContainer = () => {
           timestamp='22 hours ago'
           text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. ☺️ `}
         />
-        <James
+        <Custom
           name='James'
           timestamp='3 hours ago'
           text={`For now, read these reviews about me.`}
@@ -94,7 +94,7 @@ const Post = ({ name, timestamp, text }) => {
   );
 };
 
-const James = ({ name, timestamp, text, image}) => {
+const Custom = ({ name, timestamp, text, image}) => {
   
   return (
     <div className={'post'}>
