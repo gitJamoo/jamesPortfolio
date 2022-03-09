@@ -14,7 +14,7 @@ const SideBar = () => {
         <SideBarIcon icon={<FaPoo size="20" />}text={"poop.exe"} />
         <Divider />
         <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} link={"https://www.youtube.com/"} />
-        <SideBarIcon icon={<AiOutlineGithub size="30" />} text={"github"} link={"https://www.youtube.com/"} />
+        <SideBarIcon icon={<AiOutlineGithub size="30" />} text={"github"} link={"https://www.github.com/gitJamoo"} />
         <Divider />
         <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
