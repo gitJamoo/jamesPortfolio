@@ -1,5 +1,6 @@
 import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
 import { FaFire, FaPoo, FaLinkedin } from 'react-icons/fa';
+import {AiOutlineGithub} from 'react-icons/ai';
 
 const SideBar = () => {
   return (
@@ -13,7 +14,7 @@ const SideBar = () => {
         <SideBarIcon icon={<FaPoo size="20" />}text={"poop.exe"} />
         <Divider />
         <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} link={"https://www.youtube.com/"} />
-        <SideBarIcon icon={<FaLinkedin size="22" />} text={"github"} link={"https://www.youtube.com/"} />
+        <SideBarIcon icon={<AiOutlineGithub size="30" />} text={"github"} link={"https://www.youtube.com/"} />
         <Divider />
         <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
