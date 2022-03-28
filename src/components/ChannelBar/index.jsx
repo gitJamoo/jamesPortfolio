@@ -5,8 +5,8 @@ import { FaChevronDown, FaChevronRight, FaPlus } from 'react-icons/fa';
 const topics = ['tailwind-css', 'react'];
 const aboutme = ['jit-compilation', 'purge-files', 'dark-mode'];
 const random = ['variants', 'plugins'];
-const languages = ['C++', 'JavaScript', 'HTML', 'CSS']
-const projects = ['W3B Card', '[NAME PENDING]', 'This website']
+const languages = ['c++', 'javascript', 'html', 'css']
+const projects = ['w3b-card', '[name-pending]', 'this-website']
 
 const ChannelBar = () => {
   return (
