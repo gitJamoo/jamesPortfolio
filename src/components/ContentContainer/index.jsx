@@ -4,7 +4,6 @@ import { BsPlusCircleFill } from 'react-icons/bs';
 
 const ContentContainer = () => {
   return (
-   <a href="https://www.fanfiction.net/s/8085414/1/SONIC-HIGH-SCHOOL">
    <div className='content-container'>
       <TopNavigation />
       <div className='content-list'>
@@ -64,7 +63,6 @@ const ContentContainer = () => {
       </div>
       <BottomBar />
     </div>
-    </a>
   );
 };
 
