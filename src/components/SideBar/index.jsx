@@ -1,6 +1,7 @@
 import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
-import { FaFire, FaPoo, FaLinkedin } from 'react-icons/fa';
-import {AiOutlineGithub, AiOutlineTwitter, AiFillInstagram} from 'react-icons/ai';
+import { FaFire, FaLinkedin } from 'react-icons/fa';
+import {AiOutlineGithub, AiOutlineTwitter, AiFillCreditCard} from 'react-icons/ai';
+import {GrInstagram} from 'react-icons/gr';
 
 const SideBar = () => {
   return (
@@ -11,12 +12,12 @@ const SideBar = () => {
         <Divider />
         <SideBarIcon icon={<BsPlus size="32" />}text={"plus"} />
         <SideBarIcon icon={<BsFillLightningFill size="20" />}text={"its lit"} />
-        <SideBarIcon icon={<FaPoo size="20" />}text={"poop.exe"} />
+        <SideBarIcon icon={<AiFillCreditCard size="20" />}text={"W3B Card"} />
         <Divider />
         <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} link={"https://www.youtube.com/"} />
         <SideBarIcon icon={<AiOutlineGithub size="30" />} text={"github"} link={"https://www.github.com/gitJamoo"} />
         <SideBarIcon icon={<AiOutlineTwitter size="30" />} text={"twitter"} link={"https://www.github.com/gitJamoo"} />
-        <SideBarIcon icon={<AiFillInstagram size="30" />} text={"twitter"} link={"https://www.github.com/gitJamoo"} />
+        <SideBarIcon icon={<GrInstagram size="26" />} text={"instagram"} link={"https://www.github.com/gitJamoo"} />
         <Divider />
         <SideBarIcon icon={<BsGearFill size="22" />} text={"settings"} />
     </div>
