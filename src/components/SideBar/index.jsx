@@ -1,5 +1,5 @@
-import { BsPlus, BsFillLightningFill, BsGearFill } from 'react-icons/bs';
-import { FaFire, FaLinkedin } from 'react-icons/fa';
+import { BsPlus, BsGearFill } from 'react-icons/bs';
+import { FaFire, FaLinkedin, FaGamepad } from 'react-icons/fa';
 import {AiOutlineGithub, AiOutlineTwitter, AiFillCreditCard} from 'react-icons/ai';
 import {GrInstagram} from 'react-icons/gr';
 
@@ -11,7 +11,7 @@ const SideBar = () => {
         <SideBarIcon icon={<FaFire size="28" />}text={"fiyaaaaaaaaaaaaa"} />
         <Divider />
         <SideBarIcon icon={<BsPlus size="32" />}text={"plus"} />
-        <SideBarIcon icon={<BsFillLightningFill size="20" />}text={"its lit"} />
+        <SideBarIcon icon={<FaGamepad size="24" />}text={"OGPC '22"} />
         <SideBarIcon icon={<AiFillCreditCard size="20" />}text={"W3B Card"} />
         <Divider />
         <SideBarIcon icon={<FaLinkedin size="22" />} text={"my linkedin"} link={"https://www.youtube.com/"} />
