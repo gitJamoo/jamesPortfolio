@@ -13,7 +13,7 @@ const ContentContainer = () => {
           text={"Hi! Im James Smith, currently a Developer located in Tigard, Oregon."}
           image={"https://i.imgur.com/6Dys0j3.jpeg"}
         />
-        <Custom name='James' timestamp='one week ago' text={`You can learn more about me by expanding the channel bar.`}           image={"https://i.imgur.com/6Dys0j3.jpeg"}
+        <Custom name='James' timestamp='one week ago' text={`You can learn more about me by reading the channels present on the left side.`}           image={"https://i.imgur.com/6Dys0j3.jpeg"}
 />
         <Post name='Jill' timestamp='5 days ago' text={`Lorem.`} />
         <Post
