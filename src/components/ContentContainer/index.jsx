@@ -15,7 +15,7 @@ const ContentContainer = () => {
         />
         <Custom name='James' timestamp='one week ago' text={`You can learn more about me by reading the channels present on the left side.`}           image={"https://i.imgur.com/6Dys0j3.jpeg"}
 />
-        <Post name='Jill' timestamp='5 days ago' text={`Lorem.`} />
+        <Post name='Jill' timestamp='5 days ago' text={`wow he so cool`} />
         <Post
           name='Ellie'
           timestamp='4 days ago'

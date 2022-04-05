@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { BsHash } from 'react-icons/bs';
 import { FaChevronDown, FaChevronRight, FaPlus } from 'react-icons/fa';
 
-const topics = ['tailwind-css', 'react'];
-const aboutme = ['jit-compilation', 'purge-files', 'dark-mode'];
+const mylife = ['born', 'tigard', 'some-college-:O'];
+const aboutme = ['manly-man', ];
 const random = ['variants', 'plugins'];
 const languages = ['c++', 'javascript', 'html', 'css']
 const projects = ['w3b-card', '[name-pending]', 'this-website']
@@ -13,7 +13,7 @@ const ChannelBar = () => {
     <div className='channel-bar shadow-lg'>
       <ChannelBlock />
       <div className='channel-container'>
-        <Dropdown header='Topics' selections={topics} />
+        <Dropdown header='Life Path' selections={mylife} />
         <Dropdown header='About me' selections={aboutme} />
         <Dropdown header='Random' selections={random} />
         <Dropdown header='Languages' selections={languages} />
